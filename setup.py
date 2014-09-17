@@ -35,7 +35,8 @@ requires = ['translationstring', 'iso8601']
 testing_extras = ['nose', 'coverage']
 docs_extras = ['Sphinx']
 
-setup(name='colander',
+# This is a branch for Balanced
+setup(name='ba-colander',
       version='1.0b1',
       description=('A simple schema-based serialization and deserialization '
                    'library'),
